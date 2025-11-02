@@ -257,3 +257,266 @@ ul a {
     
     padding-top: 5px;
 }
+
+/* Responsive Design - Media Queries */
+
+/* Tablet Devices (768px - 1024px) */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    .nav-search {
+        width: 450px;
+    }
+    
+    .pannel-ops {
+        width: 60%;
+        font-size: 0.75rem;
+    }
+    
+    .pannel-ops p {
+        margin: 10px;
+    }
+    
+    .box {
+        width: 45%;
+        margin: 10px;
+    }
+    
+    .foot-pannel2 {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .foot-pannel2 ul {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+/* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 5px;
+        gap: 10px;
+    }
+    
+    .nav-logo {
+        width: 80px;
+        height: 40px;
+    }
+    
+    .logo {
+        height: 40px;
+    }
+    
+    .nav-address {
+        order: 3;
+    }
+    
+    .nav-search {
+        width: 95%;
+        order: 2;
+    }
+    
+    .search-select {
+        width: 60px;
+        font-size: 0.8rem;
+    }
+    
+    .search-input {
+        font-size: 0.9rem;
+    }
+    
+    .nav-signin, .nav-return, .nav-cart {
+        font-size: 0.75rem;
+    }
+    
+    .nav-cart i {
+        font-size: 24px;
+    }
+    
+    .pannel {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px 5px;
+        justify-content: flex-start;
+    }
+    
+    .pannel-all {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .pannel-ops {
+        width: 100%;
+        font-size: 0.75rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .pannel-ops p {
+        margin: 5px;
+    }
+    
+    .pannel-deals {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .hero-section {
+        height: 250px;
+    }
+    
+    .hero-msg {
+        width: 95%;
+        font-size: 0.75rem;
+        padding: 5px;
+        text-align: center;
+        height: auto;
+        min-height: 40px;
+    }
+    
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box {
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+        min-height: 350px;
+    }
+    
+    .box-img {
+        height: 250px;
+    }
+    
+    .foot-pannel2 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .foot-pannel2 ul {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .foot-pannel4 {
+        height: auto;
+        padding: 20px 10px;
+    }
+    
+    .pages {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+/* Small Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 8px 3px;
+    }
+    
+    .nav-logo {
+        width: 70px;
+        height: 35px;
+    }
+    
+    .logo {
+        height: 35px;
+    }
+    
+    .add-first {
+        font-size: 0.7rem;
+    }
+    
+    .add-second {
+        font-size: 0.85rem;
+    }
+    
+    .search-select {
+        width: 50px;
+        font-size: 0.7rem;
+    }
+    
+    .search-input {
+        font-size: 0.8rem;
+    }
+    
+    .search-icon {
+        width: 40px;
+        font-size: 1rem;
+    }
+    
+    span {
+        font-size: 0.6rem;
+    }
+    
+    .nav-second {
+        font-size: 0.7rem;
+    }
+    
+    .nav-cart {
+        font-size: 0.7rem;
+    }
+    
+    .nav-cart i {
+        font-size: 20px;
+    }
+    
+    .pannel-ops {
+        font-size: 0.7rem;
+    }
+    
+    .hero-section {
+        height: 200px;
+    }
+    
+    .hero-msg {
+        font-size: 0.7rem;
+        margin-bottom: 15px;
+    }
+    
+    .box {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .box-img {
+        height: 200px;
+    }
+    
+    .box-content h2 {
+        font-size: 1.2rem;
+    }
+    
+    .foot-pannel {
+        font-size: 0.75rem;
+        height: 40px;
+    }
+    
+    .foot-pannel2 {
+        padding: 15px;
+    }
+    
+    ul a {
+        font-size: 0.75rem;
+    }
+    
+    .foot-pannel4 {
+        font-size: 0.65rem;
+    }
+}
